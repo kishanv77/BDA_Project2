@@ -1,0 +1,64 @@
+2025-12-04 00:06:43,334 - __main__ - INFO - ============================================================
+2025-12-04 00:06:43,334 - __main__ - INFO - Twitter Sentiment Analysis - Stream Component
+2025-12-04 00:06:43,335 - __main__ - INFO - ============================================================
+2025-12-04 00:09:17,325 - __main__ - INFO - ============================================================
+2025-12-04 00:09:17,325 - __main__ - INFO - Twitter Sentiment Analysis - Stream Component
+2025-12-04 00:09:17,326 - __main__ - INFO - ============================================================
+2025-12-04 00:23:21,476 - __main__ - INFO - ============================================================
+2025-12-04 00:23:21,477 - __main__ - INFO - Twitter Sentiment Analysis - Stream Component
+2025-12-04 00:23:21,478 - __main__ - INFO - ============================================================
+2025-12-04 00:24:40,309 - __main__ - INFO - ============================================================
+2025-12-04 00:24:40,310 - __main__ - INFO - Twitter Sentiment Analysis - Stream Component
+2025-12-04 00:24:40,310 - __main__ - INFO - ============================================================
+2025-12-04 00:25:52,255 - __main__ - INFO - ============================================================
+2025-12-04 00:25:52,256 - __main__ - INFO - Twitter Sentiment Analysis - Stream Component
+2025-12-04 00:25:52,256 - __main__ - INFO - ============================================================
+2025-12-04 00:27:19,948 - __main__ - INFO - ============================================================
+2025-12-04 00:27:19,949 - __main__ - INFO - Twitter Sentiment Analysis - Stream Component
+2025-12-04 00:27:19,949 - __main__ - INFO - ============================================================
+2025-12-04 00:27:19,950 - __main__ - ERROR - ERROR: Twitter API credentials not configured!
+2025-12-04 00:27:19,950 - __main__ - INFO - 
+Steps to configure:
+2025-12-04 00:27:19,951 - __main__ - INFO - 1. Go to https://developer.twitter.com/
+2025-12-04 00:27:19,951 - __main__ - INFO - 2. Create a project and app
+2025-12-04 00:27:19,951 - __main__ - INFO - 3. Get your Bearer Token
+2025-12-04 00:27:19,952 - __main__ - INFO - 4. Add it to config.py: TWITTER_BEARER_TOKEN = 'your_token'
+2025-12-04 00:27:57,289 - __main__ - INFO - ============================================================
+2025-12-04 00:27:57,289 - __main__ - INFO - Twitter Sentiment Analysis - Stream Component
+2025-12-04 00:27:57,290 - __main__ - INFO - ============================================================
+2025-12-04 00:30:29,885 - __main__ - INFO - ============================================================
+2025-12-04 00:30:29,886 - __main__ - INFO - Twitter Sentiment Analysis - Stream Component
+2025-12-04 00:30:29,886 - __main__ - INFO - ============================================================
+2025-12-04 00:30:29,886 - __main__ - INFO - Authenticating with Twitter API v2...
+2025-12-04 00:30:29,886 - __main__ - ERROR - Authentication failed: Twitter Bearer Token not configured in config.py
+2025-12-04 00:30:29,887 - __main__ - ERROR - Failed to authenticate with Twitter API
+2025-12-06 11:27:10,794 - __main__ - INFO - ============================================================
+2025-12-06 11:27:10,795 - __main__ - INFO - Twitter Sentiment Analysis - Stream Component
+2025-12-06 11:27:10,795 - __main__ - INFO - ============================================================
+2025-12-06 11:27:10,795 - __main__ - INFO - Authenticating with Twitter API v2...
+2025-12-06 11:27:10,796 - __main__ - ERROR - Authentication failed: Twitter Bearer Token not configured in config.py
+2025-12-06 11:27:10,796 - __main__ - ERROR - Failed to authenticate with Twitter API
+2025-12-06 11:36:20,568 - __main__ - INFO - ============================================================
+2025-12-06 11:36:20,568 - __main__ - INFO - Twitter Sentiment Analysis - Stream Component
+2025-12-06 11:36:20,568 - __main__ - INFO - ============================================================
+2025-12-06 11:36:20,569 - __main__ - INFO - Authenticating with Twitter API v2...
+2025-12-06 11:36:20,569 - __main__ - ERROR - Authentication failed: Twitter Bearer Token not configured in config.py
+2025-12-06 11:36:20,570 - __main__ - ERROR - Failed to authenticate with Twitter API
+2025-12-06 11:37:57,732 - __main__ - INFO - ============================================================
+2025-12-06 11:37:57,732 - __main__ - INFO - Twitter Sentiment Analysis - Stream Component
+2025-12-06 11:37:57,732 - __main__ - INFO - ============================================================
+2025-12-06 11:37:57,732 - __main__ - INFO - Authenticating with Twitter API v2...
+2025-12-06 11:37:57,732 - __main__ - ERROR - Authentication failed: Twitter Bearer Token not configured in config.py
+2025-12-06 11:37:57,733 - __main__ - ERROR - Failed to authenticate with Twitter API
+2025-12-06 11:40:29,719 - __main__ - INFO - ============================================================
+2025-12-06 11:40:29,719 - __main__ - INFO - Twitter Sentiment Analysis - Stream Component
+2025-12-06 11:40:29,719 - __main__ - INFO - ============================================================
+2025-12-06 11:40:29,720 - __main__ - INFO - Authenticating with Twitter API v2...
+2025-12-06 11:40:29,720 - __main__ - ERROR - Authentication failed: Twitter Bearer Token not configured in config.py
+2025-12-06 11:40:29,720 - __main__ - ERROR - Failed to authenticate with Twitter API
+2025-12-06 11:46:37,312 - __main__ - INFO - ============================================================
+2025-12-06 11:46:37,312 - __main__ - INFO - Twitter Sentiment Analysis - Stream Component
+2025-12-06 11:46:37,312 - __main__ - INFO - ============================================================
+2025-12-06 11:46:37,312 - __main__ - INFO - Authenticating with Twitter API v2...
+2025-12-06 11:46:37,313 - __main__ - ERROR - Authentication failed: Twitter Bearer Token not configured in config.py
+2025-12-06 11:46:37,313 - __main__ - ERROR - Failed to authenticate with Twitter API

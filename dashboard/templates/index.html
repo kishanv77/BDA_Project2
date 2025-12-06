@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Twitter Sentiment Analysis Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>📊 Real-Time Twitter Sentiment Analysis</h1>
+                <p class="subtitle">Live sentiment classification dashboard</p>
+            </div>
+            <div class="status" id="status">
+                <span class="status-indicator"></span>
+                <span id="status-text">Connecting...</span>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Statistics Row -->
+            <section class="stats-row">
+                <div class="stat-card">
+                    <div class="stat-label">Positive Tweets</div>
+                    <div class="stat-value positive" id="positive-count">0</div>
+                    <div class="stat-percentage" id="positive-pct">0%</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Negative Tweets</div>
+                    <div class="stat-value negative" id="negative-count">0</div>
+                    <div class="stat-percentage" id="negative-pct">0%</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Neutral Tweets</div>
+                    <div class="stat-value neutral" id="neutral-count">0</div>
+                    <div class="stat-percentage" id="neutral-pct">0%</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Total Tweets</div>
+                    <div class="stat-value total" id="total-count">0</div>
+                    <div class="stat-percentage" id="batch-count">0 batches</div>
+                </div>
+            </section>
+
+            <!-- Charts Row -->
+            <section class="charts-row">
+                <!-- Bar Chart -->
+                <div class="chart-container">
+                    <h2>Sentiment Count</h2>
+                    <canvas id="sentimentChart"></canvas>
+                </div>
+
+                <!-- Pie Chart -->
+                <div class="chart-container">
+                    <h2>Sentiment Distribution</h2>
+                    <canvas id="pieChart"></canvas>
+                </div>
+            </section>
+
+            <!-- Info Section -->
+            <section class="info-section">
+                <h3>Dashboard Information</h3>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <strong>Last Updated:</strong>
+                        <span id="last-updated">Never</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Batches Processed:</strong>
+                        <span id="batches-processed">0</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Refresh Rate:</strong>
+                        <span id="refresh-rate">2 seconds</span>
+                    </div>
+                    <div class="info-item">
+                        <strong>Status:</strong>
+                        <span id="dashboard-status">Idle</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Twitter Sentiment Analysis System | Powered by PySpark & Chart.js</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+</body>
+</html>

@@ -13,9 +13,11 @@ TWITTER_BEARER_TOKEN = "..."
 STREAM_KEYWORDS = ["#python", "#AI", "#MachineLearning", "#DataScience"]
 TWEET_LANGUAGE = "en"
 
+# Spark Configuration
 SPARK_MASTER = "local[*]"
-SOCKET_HOST = "localhost"
-SOCKET_PORT = 9999
+BATCH_INTERVAL = 10  # seconds
+CHECKPOINT_DIR = "./checkpoints"
+
 
 FLASK_HOST = "0.0.0.0"
 FLASK_PORT = 5000
